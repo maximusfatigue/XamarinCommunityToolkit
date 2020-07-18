@@ -26,6 +26,7 @@ namespace XamarinCommunityToolkitSample.Pages.Views
             => id switch
             {
                 ViewSectionId.AvatarView => new AvatarViewPage(),
+                ViewSectionId.RangeSlider => new RangeSliderPage(),
                 _ => throw new NotImplementedException()
             };
     }

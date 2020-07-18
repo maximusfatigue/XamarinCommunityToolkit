@@ -4,7 +4,8 @@ namespace XamarinCommunityToolkitSample.Models.Views
 {
     public enum ViewSectionId
     {
-        AvatarView
+        AvatarView,
+        RangeSlider
     }
 
     public static class ViewSectionIdIdExtensions
